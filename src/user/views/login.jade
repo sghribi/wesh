@@ -1,0 +1,14 @@
+ion-view(scroll="true")
+  ion-pane.login
+
+    //- Title
+    .col.col-center.col-80.col-offset-10
+      .title.padding-vertical
+        h1
+          | Wesh
+        p Page de test
+
+    //- Login form
+    .col.col-center.col-80.col-offset-10
+      .card(ng-if="formError")
+        button.button Wesh

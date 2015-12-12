@@ -1,0 +1,6 @@
+{
+  "SERVER_API_URL": "https://@TODO/api/v1/",
+  "SERVER_OAUTH_URL": "https://@TODO/oauth/v2/token",
+  "SERVER_OAUTH_CLIENT_ID": "client_id",
+  "SERVER_OAUTH_CLIENT_SECRET": "client_secret"
+}

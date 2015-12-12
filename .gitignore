@@ -1,0 +1,17 @@
+node_modules/
+bower_components/
+coverage/
+www/
+npm-debug.log
+docs/build
+.idea/
+tools/build/config/config.json
+platforms/
+plugins/
+engine/
+*.ipa
+builds/*.ipa
+builds/*.app
+builds/*.apk
+.DS_Store
+.io-config.json

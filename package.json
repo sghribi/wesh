@@ -1,0 +1,51 @@
+{
+  "name": "wesh",
+  "version": "0.0.1",
+  "scripts": {
+    "postinstall": "bower install && gulp build",
+    "start": "gulp watch"
+  },
+  "dependencies": {
+    "bower": "*",
+    "coffee-script": "*",
+    "cordova": "^5.4.1",
+    "gulp": "*",
+    "gulp-add-src": "*",
+    "gulp-angular-templatecache": "*",
+    "gulp-coffee": "*",
+    "gulp-concat": "*",
+    "gulp-expect-file": "*",
+    "gulp-filter": "*",
+    "gulp-jade": "*",
+    "gulp-ng-constant": "*",
+    "gulp-plug": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "gulp-rimraf": "*",
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "*",
+    "gulp-stylus": "*",
+    "gulp-webserver": "*",
+    "main-bower-files": "^2.5.0",
+    "require-dir": "^0.1.0",
+    "wiredep": "*"
+  },
+  "cordovaPlugins": [
+    {
+      "locator": "https://github.com/apache/cordova-plugin-whitelist.git",
+      "id": "cordova-plugin-whitelist"
+    },
+    "cordova-plugin-whitelist",
+    "com.ionic.keyboard",
+    "com.ionic.keyboard@^1.0.4"
+  ],
+  "cordovaPlatforms": [
+    {
+      "platform": "ios",
+      "version": "",
+      "locator": "ios"
+    },
+    "android"
+  ]
+}

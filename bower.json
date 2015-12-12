@@ -1,0 +1,18 @@
+{
+  "name": "wesh",
+  "version": "0.0.1",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower",
+    "platform": "~1.3.0"
+  },
+  "dependencies": {
+    "angular": "1.4.*",
+    "ngCordova": "*",
+    "angular-translate": "*",
+    "angular-resource": "*",
+    "angular-ui-router": "*",
+    "lodash": "*",
+    "moment": "*",
+    "ionic": "driftyco/ionic-bower#v1.2.0"
+  }
+}

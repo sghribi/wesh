@@ -1,0 +1,14 @@
+doctype html
+html(lang="fr", ng-app="%module%")
+  head
+    title Wesh
+    meta(charset="utf-8")
+    link(rel="stylesheet", href="%styles%/app.css")
+    meta(name="viewport", content="initial-scale=1.0, maximum-scale=1, user-scalable=no, width=device-width")
+    meta(http-equiv='Content-Security-Policy', content="default-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src 'self' 'unsafe-inline' 'unsafe-eval' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *")
+  body
+    script(src="%scripts%/vendor.js")
+    script(src="%scripts%/app.js")
+    script(src="%scripts%/templates.js")
+    script(src="cordova.js")
+    ion-nav-view
