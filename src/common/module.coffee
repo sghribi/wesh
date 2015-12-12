@@ -1,15 +1,16 @@
-###*
-  @ngdoc module
-  @name boilerplate.common
-  @module boilerplate.common
-  @description
+  ###*
+    @ngdoc module
+    @name boilerplate.common
+    @module boilerplate.common
+    @description
 
-  This module contains helpers and global configuration required by your app
-###
+    This module contains helpers and global configuration required by your app
+  ###
 
-angular.module '%module%.common', [
-  'ng'
-  'ui.router'
-  'config'
-  'ngCordova'
-]
+  angular.module '%module%.common', [
+    'ng'
+    'ui.router'
+    'config'
+    'ionic'
+    'ngCordova'
+  ]

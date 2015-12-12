@@ -38,7 +38,13 @@
     },
     "cordova-plugin-whitelist",
     "com.ionic.keyboard",
-    "com.ionic.keyboard@^1.0.4"
+    "com.ionic.keyboard@^1.0.4",
+    "phonegap-plugin-push",
+    {
+      "locator": "https://github.com/phonegap-build/PushPlugin.git",
+      "id": "com.phonegap.plugins.PushPlugin"
+    },
+    "cordova-plugin-facebook4"
   ],
   "cordovaPlatforms": [
     {

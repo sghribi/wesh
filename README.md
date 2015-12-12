@@ -34,7 +34,7 @@ npm install
 cp tools/build/config/config.json.dist tools/build/config/config.json
 
 # Configure Facebook connect plugin
-cordova -d plugin add https://github.com/phonegap/phonegap-facebook-plugin.git --variable APP_ID="@TODO" --variable APP_NAME="Wesh"
+cordova -d plugin add cordova-plugin-facebook4 --variable APP_ID="@TODO" --variable APP_NAME="Wesh"
 
 # Launch the watcher + livereload
 npm start

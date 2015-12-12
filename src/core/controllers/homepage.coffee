@@ -1,5 +1,5 @@
 angular.module '%module%.core'
-.controller 'HomepageCtrl', ($scope, storage, $cordovaFacebook, $state) ->
+.controller 'HomepageCtrl', ($scope, storage, $cordovaFacebook, $state, $ionicPlatform) ->
   $scope.user = storage.user
 
   $scope.logout = ->
@@ -7,3 +7,4 @@ angular.module '%module%.core'
     $cordovaFacebook.logout()
     .then ->
       $state.go 'login'
+
