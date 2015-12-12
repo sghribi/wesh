@@ -1,14 +1,11 @@
-ion-view(scroll="true")
-  ion-pane.login
+ion-view
+  ion-header-bar(align-title="center", class="bar-royal")
+    h1.title Wesh - Login
+  ion-content.homepage(scroll="true")
+    .card
+      .item.item-text-wrap
 
-    //- Title
-    .col.col-center.col-80.col-offset-10
-      .title.padding-vertical
-        h1
-          | Wesh
-        p Page de test
+        h1 Wesh
+        p Connecte-toi pour dire Wesh à tout le monde !
 
-    //- Login form
-    .col.col-center.col-80.col-offset-10
-      .card(ng-if="formError")
-        button.button Wesh
+        button.button.button-block.button-positive.icon-left.ion-social-facebook(ng-click="login()") Facebook connect

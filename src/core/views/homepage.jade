@@ -1,7 +1,15 @@
 ion-view
   ion-header-bar(align-title="center", class="bar-royal")
     h1.title Wesh
-  ion-content.homepage(scroll="true")
+  ion-content.homepage
     .card
       .item.item-text-wrap
-       p Wesh !
+        h2
+          | Wesh
+          strong &nbsp;{{ user.name }}
+
+        p Dis Wesh à tout le monde !
+        button.button.button-block.button-positive Wesh!
+
+  ion-footer-bar
+    button.button.button-clear.pull-right(ng-click="logout()") Logout
