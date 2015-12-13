@@ -44,7 +44,8 @@
       "locator": "https://github.com/phonegap-build/PushPlugin.git",
       "id": "com.phonegap.plugins.PushPlugin"
     },
-    "cordova-plugin-facebook4"
+    "cordova-plugin-facebook4",
+    "cordova-plugin-x-toast"
   ],
   "cordovaPlatforms": [
     {
