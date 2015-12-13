@@ -1,5 +1,5 @@
 angular.module '%module%.core'
-.controller 'HomepageCtrl', ($scope, storage, $rootScope, $cordovaFacebook, $state, $http, $cordovaToast) ->
+.controller 'HomepageCtrl', ($scope, storage, $rootScope, $cordovaFacebook, $state, $http, $cordovaToast, $ionicPopup) ->
   $scope.user = storage.user
   $scope.disabled = false
 
@@ -11,8 +11,9 @@ angular.module '%module%.core'
       $state.go 'login'
 
   $rootScope.$on 'notification', (event, args) ->
-    alert JSON.stringify args
-
+    $ionicPopup.alert
+      title: 'Wesh!',
+      template: 'Un de vos amis vous dit bonjour !'
 
   $scope.wesh = ->
     $scope.disabled = true
