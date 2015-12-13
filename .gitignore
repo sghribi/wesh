@@ -15,3 +15,4 @@ builds/*.app
 builds/*.apk
 .DS_Store
 .io-config.json
+wesh-release-key.keystore
